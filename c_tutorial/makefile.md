@@ -428,3 +428,36 @@ resource_generator: resource_generator.c
     $(CC) $(CFLAGS) -o $@ $<
 #这一行会编译 resource_generator.c 文件并生成一个名为 resource_generator 的可执行文
 ```
+## 6. Phony Targets in Makefiles
+, **phony targets** are targets that don’t represent files or artifacts but rather serve as labels for specific actions or tasks that need to be executed.
+通常，虚假目标没有先决条件或依赖项，因为它们的目的是执行特定操作，而不是基于依赖项构建文件。
+
+```
+.PHONY: clean test docs
+```
+In this example, we’ve declared three phony targets: `clean`, `test`, and `docs`. These targets represent common development tasks such as cleaning up generated files, running tests, and generating documentation.
+虚假目标对于自动化各种开发和维护任务很有价值。以下是虚假目标的一些常见用例和实际示例
+```
+.PHONY: clean
+
+clean:
+    rm -f my_program main.o util.o
+```
+运行 make clean 将从项目目录中删除可执行文件 my_program 和目标文件（main.o 和 util.o）。
+
+A test phony target is used to run your project’s test suite. This is especially helpful for continuous integration (CI) workflows.持续集成 (CI) 工作流程特别有帮助。
+```
+.PHONY: test
+
+test:
+    ./run_tests.sh
+```
+6.3.3 Generating Documentation
+运行 make docs 将使用 Doxygen 或您喜欢的任何其他文档生成工具生成文档
+```
+.PHONY: docs
+
+docs:
+    doxygen
+```
+(还有五章补充)[http://artificium.us/lessons/01.programming/l-1-901-make/l-1-901.html#53_Conclusion]
