@@ -4,3 +4,6 @@
 4. 然后vscode 要在exetension上面改一下要选gcc来编译
 5. 接着要把jason 等等的文件改一下
 最后才有compliar 和 runner
+
+
+make 也需要在上面下载，但是windows 很慢你要不停关掉再开

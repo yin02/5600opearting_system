@@ -73,7 +73,7 @@ Once you have the makefile, “execute it” by running the make program.
 ```
 make
 ```
-可以的，试了一下，就是直接makefile，这个名字![alt text](image-4.png)
+可以的，试了一下，就是直接makefile，这个名字![alt text](assets/image-4.png)
 
 Makefiles are build files for projects and they contains all command to compile, link, copy, or move files and run scripts. Below is a simple example.
 

@@ -47,7 +47,7 @@ Source files are text files with the .c extension.
 
 
 ## data types
-![alt text](image-2.png)
+![alt text](assets/image-2.png)
 C 给我们提供了下列定义整数的类型：
 - char
 - int
@@ -178,8 +178,8 @@ An identifier is the name given to entities such as variables, functions, struct
 int amount;
 double accountBalance;`
 
-![alt text](image-1.png)
-![alt text](image-3.png)
+![alt text](assets/image-1.png)
+![alt text](assets/image-3.png)
 
 ```c
 #include <stdio.h>
@@ -935,8 +935,8 @@ int runner()
 
 int main()
 {
-    printf("%d ", runner());
-    printf("%d ", runner());
+    printf("%d ", runner());//1
+    printf("%d ", runner());//2
     return 0;
 }
 ```

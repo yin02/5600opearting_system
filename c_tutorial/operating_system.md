@@ -1,7 +1,7 @@
 ## What is an Operating System?
 
 There are several classic definitions of an OS that you may have seen in an undergraduate course: an OS either manages system resources and their use by programs, or provides the environment and facilities for applications to run on.
-![alt text](image.png)
+![alt text](assets/image.png)
 
 ## Basic commands line
 ### basic file management
