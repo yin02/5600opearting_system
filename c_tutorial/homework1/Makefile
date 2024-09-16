@@ -3,11 +3,11 @@ CC = gcc
 CFLAGS = -Wall -g
 
 # Executable names
-EXE1 = learn
+EXE1 = learnc
 EXE2 = arger
 
 # Source files
-SRC1 = learn.c mpg2km.c
+SRC1 = learnc.c mpg2km.c
 SRC2 = arger.c
 
 # Object files
@@ -33,6 +33,6 @@ clean:
 	rm -f $(EXE1) $(EXE2) *.o
 
 # Dependencies
-learn.o: mpg2km.h
+learnc.o: mpg2km.h
 mpg2km.o: mpg2km.h
 arger.o:
