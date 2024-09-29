@@ -11,3 +11,4 @@ cipher: cipher.c polybius.c
 
 clean:
 	rm -f genrand cipher
+
