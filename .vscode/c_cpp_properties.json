@@ -1,15 +1,15 @@
 {
   "configurations": [
     {
-      "name": "Win32",
-      "intelliSenseMode": "gcc-x64",
+      "name": "macos-clang-arm64",
+      "intelliSenseMode": "macos-clang-arm64",
       "includePath": [
         "${workspaceFolder}/**"
       ],
       "defines": [],
-      "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
-      "cStandard": "c11",
-      "cppStandard": "c++17"
+      "compilerPath": "/usr/bin/clang",
+      "cStandard": "${default}",
+      "cppStandard": "${default}"
     }
   ],
   "version": 4
