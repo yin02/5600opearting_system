@@ -225,19 +225,24 @@ f we want to say that our code was run successfully, we will return the number 0
 
 ## Variables and Types
 ### Data types
-- Integers - whole numbers which can be either positive or negative. Defined using char, int, short, long or long long.
+- Integers - whole numbers which can be either positive or negative. Defined using `char`, `int`, `short`, `long` or `long long`.
 - Unsigned integers - whole numbers which can only be positive. Defined using unsigned char, unsigned int, unsigned short, unsigned long or unsigned long long.
 - Floating point numbers - real numbers (numbers with fractions). Defined using float and double.
 - Structures - will be explained later, in the Structures section.
 
+<<<<<<< HEAD
 
 
 **note** that c does not have a boolean type. usually, it is defined using the following notation:
 
+=======
+Note that C does not have a boolean type. Usually, it is defined using the following notation:
+>>>>>>> f4e084b (upload)
 ```c
 #define BOOL char
 #define FALSE 0
 #define TRUE 1
+<<<<<<< HEAD
 ```
 
 c uses arrays of characters to define strings, and will be explained in the strings section.
@@ -976,3 +981,6 @@ int main() {
 ```
 注意windows 添加环境变量，里面是有个叫path 不是要你自己去添加变量名
 
+=======
+```
+>>>>>>> f4e084b (upload)
