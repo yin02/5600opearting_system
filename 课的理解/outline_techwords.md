@@ -243,6 +243,32 @@
 3. **RAID (Redundant Array of Independent Disks)**:  
    RAID 是一种将多个物理磁盘组合成一个逻辑单元的技术，提供数据冗余和性能提升。常见的 RAID 级别有 RAID 0、RAID 1、RAID 5 等。  
    (RAID is a technology that combines multiple physical disks into a single logical unit to provide data redundancy and performance improvements. Common RAID levels include RAID 0, RAID 1, and RAID 5.)
+   好的，以下是您请求的阅读材料术语解释，中文后面跟着英文：
+
+### 1. Block Storage Devices
+- **块存储设备** (Block Storage Devices): 这些设备将数据存储为固定大小的数据块，通常用于高性能存储解决方案，例如 SSD 和 SAN. (These devices store data in fixed-size blocks, commonly used in high-performance storage solutions like SSDs and SANs.)
+
+### 2. Estimating Availability and Reliability of Systems
+- **可用性** (Availability): 指系统在特定时间内可正常工作的概率. (Refers to the probability that a system is operational and accessible during a specific time period.)
+- **可靠性** (Reliability): 指系统在规定条件下和时间段内完成预定功能的能力. (Refers to the ability of a system to perform its intended function under specified conditions for a given period of time.)
+
+### 3. PC Architecture and Buses
+- **个人计算机架构** (PC Architecture): 指计算机硬件和软件的整体设计和结构，包括中央处理单元（CPU）、内存和输入输出系统. (Refers to the overall design and structure of computer hardware and software, including the Central Processing Unit (CPU), memory, and input/output systems.)
+- **总线** (Bus): 是计算机内部用于传输数据和信号的共享通道，连接各个组件. (A shared communication pathway used within a computer to transfer data and signals, connecting various components.)
+
+### 4. Data Storage, Disks, and RAID
+- **数据存储** (Data Storage): 指数据保存和管理的方式，可以是硬盘、SSD 或云存储等. (Refers to the methods of storing and managing data, which can include hard drives, SSDs, or cloud storage.)
+- **磁盘** (Disks): 是用于存储数据的物理介质，通常分为 HDD（硬盘驱动器）和 SSD（固态驱动器）. (Physical media used for data storage, typically classified into HDDs (Hard Disk Drives) and SSDs (Solid State Drives).)
+- **冗余独立磁盘阵列** (RAID): 是一种将多个硬盘组合成一个逻辑单元的技术，以提高数据冗余和性能. (A technology that combines multiple hard drives into a single logical unit to enhance data redundancy and performance.)
+
+### 5. The PCIe Bus and Direct Memory Access (DMA)
+- **PCIe 总线** (PCIe Bus): 是计算机内部连接各种硬件组件（如显卡和存储设备）的高速总线标准. (A high-speed bus standard for connecting various hardware components (such as graphics cards and storage devices) within a computer.)
+- **直接内存访问** (Direct Memory Access, DMA): 是一种允许外部设备直接访问内存而无需经过 CPU 的数据传输方式，从而提高性能. (A method that allows external devices to directly access memory without going through the CPU, thereby improving performance.)
+
+### 6. Disk Interfaces
+- **磁盘接口** (Disk Interfaces): 是指用于连接磁盘存储设备和计算机系统的接口标准，如 SATA、SAS 和 NVMe. (Standards for connecting disk storage devices to computer systems, such as SATA, SAS, and NVMe.)
+
+如果您需要进一步的解释或其他信息，请告诉我！
 
 ---
 
