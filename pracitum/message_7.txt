@@ -1,0 +1,6 @@
+ID: 7
+Time Sent: 1731490231
+Sender: Alice
+Receiver: Bob
+Content: Message content 7
+Delivered: 0

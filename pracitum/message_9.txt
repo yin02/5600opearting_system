@@ -1,0 +1,6 @@
+ID: 9
+Time Sent: 1731490231
+Sender: Alice
+Receiver: Bob
+Content: Message content 9
+Delivered: 0

@@ -1,0 +1,6 @@
+ID: 17
+Time Sent: 1731490231
+Sender: Alice
+Receiver: Bob
+Content: Message content 17
+Delivered: 0

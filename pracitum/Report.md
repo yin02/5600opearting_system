@@ -1,11 +1,6 @@
 # Virtual Memory and Cache System Simulation
 
 
-## Overview
-
-This project simulates a hierarchical memory structure with a focus on virtual memory concepts. It involves creating a message-oriented data store, implementing a caching mechanism, and using page replacement algorithms to manage limited cache space. We evaluated two page replacement strategies—Random Replacement and Least Recently Used (LRU) Replacement—to measure their effectiveness in retaining frequently accessed data.
-
----
 
 ## Part 1: Message Structure and Disk Storage
 
