@@ -1,15 +1,14 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -pthread
-SERVER = server
-CLIENT = client
+LIBS = -lws2_32
 
-all: $(SERVER) $(CLIENT)
+all: server client
 
-$(SERVER): server.c
-	$(CC) $(CFLAGS) -o $(SERVER) server.c
+server: server.c
+	$(CC) $(CFLAGS) -o server server.c $(LIBS)
 
-$(CLIENT): client.c
-	$(CC) $(CFLAGS) -o $(CLIENT) client.c
+client: client.c
+	$(CC) $(CFLAGS) -o client client.c $(LIBS)
 
 clean:
-	rm -f $(SERVER) $(CLIENT)
+	rm -f server client
