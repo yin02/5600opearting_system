@@ -1,8 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#ifdef _WIN32
+#include <winsock2.h>
+#include <windows.h>
+#define CLOSESOCKET closesocket
+#pragma comment(lib, "ws2_32.lib")
+#else
 #include <unistd.h>
 #include <arpa/inet.h>
+#define CLOSESOCKET close
+#endif
 
 #define BUFFER_SIZE 4096
 #define PORT 2024
@@ -129,6 +138,15 @@ void send_revert_command(int socket_desc, const char *remote_file)
 
 int main(int argc, char *argv[])
 {
+#ifdef _WIN32
+  WSADATA wsa;
+  if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0)
+  {
+    printf("Failed to initialize Winsock. Error Code: %d\n", WSAGetLastError());
+    return 1;
+  }
+#endif
+
   if (argc < 3)
   {
     printf("Usage:\n");
@@ -154,6 +172,10 @@ int main(int argc, char *argv[])
   if (connect(socket_desc, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0)
   {
     perror("Connect failed");
+    CLOSESOCKET(socket_desc);
+#ifdef _WIN32
+    WSACleanup();
+#endif
     return 1;
   }
 
@@ -178,6 +200,9 @@ int main(int argc, char *argv[])
     printf("Invalid command or arguments.\n");
   }
 
-  close(socket_desc);
+  CLOSESOCKET(socket_desc);
+#ifdef _WIN32
+  WSACleanup();
+#endif
   return 0;
 }
