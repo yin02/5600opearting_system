@@ -1,0 +1,6 @@
+[2024-11-27 20:49:32] WRITE: server_root/files/remotefile.txt
+[2024-11-27 20:49:32] RM: server_root/files/remotefile.txt
+[2024-11-27 20:49:32] REVERT: server_root/files/remotefile.txt
+[2024-11-27 21:29:48] WRITE: server_root/files/remotefile.txt
+[2024-11-27 21:29:48] RM: server_root/files/remotefile.txt
+[2024-11-27 21:29:48] REVERT: server_root/files/remotefile.txt
