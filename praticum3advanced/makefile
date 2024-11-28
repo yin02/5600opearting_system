@@ -1,10 +1,11 @@
+# Compiler and flags
 CC = gcc
 CFLAGS = -Wall -Wextra -pthread
 
-# Detect the OS
+# OS detection
 ifeq ($(OS),Windows_NT)
     LIBS = -lws2_32
-    RM = del
+    RM = del /Q
     EXE_SUFFIX = .exe
 else
     LIBS =
@@ -12,6 +13,7 @@ else
     EXE_SUFFIX =
 endif
 
+# Targets
 all: server client
 
 server: server.c
