@@ -190,3 +190,20 @@ Example log content:
 [2024-11-27 20:16:30] RM: remotefile.txt
 [2024-11-27 20:17:00] REVERT: remotefile.txt
 ```
+
+
+
+## or auto test
+
+
+``` bash
+make
+```
+
+```bash
+chmod +x test_remote_file_system.sh
+./test_remote_file_system.sh
+```
+
+
+
