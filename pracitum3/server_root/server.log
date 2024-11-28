@@ -1,0 +1,49 @@
+Server listening on port 2024...
+Server listening on port 2024...
+Received: WRITE remotefile.txtThis is a test file.
+
+File written successfully: server_root/files/remotefile.txtThis
+Received: WRITE remotefile.txt
+Invalid WRITE command received: WRITE remotefile.txt
+Server listening on port 2024...
+Received: WRITE remotefile.txt
+Invalid WRITE command received: WRITE remotefile.txt
+Received: WRITE remotefile.txtThis is a test file.
+
+File written successfully: server_root/files/remotefile.txtThis
+Server listening on port 2024...
+Received: WRITE remotefile.txt
+WRITE command missing file data: WRITE remotefile.txt
+Received: WRITE remotefile.txt
+WRITE command missing file data: WRITE remotefile.txt
+Received: WRITE remotefile.txt
+WRITE command missing file data: WRITE remotefile.txt
+Received: WRITE remotefile.txt
+WRITE command missing file data: WRITE remotefile.txt
+Received: WRITE remotefile.txtThis is a test file.
+
+File written successfully: server_root/files/remotefile.txtThis
+Received: WRITE remotefile.txt
+WRITE command missing file data: WRITE remotefile.txt
+Received: WRITE remotefile.txtThis is a test file.
+
+File written successfully: server_root/files/remotefile.txtThis
+Server listening on port 2024...
+Received: WRITE remotefile.txt This is a test file.
+
+File written successfully: server_root/files/remotefile.txt
+Received: WRITE remotefile.txt This is a test file.
+
+File written successfully: server_root/files/remotefile.txt
+Received: WRITE remotefile.txt This is a test file.
+
+File written successfully: server_root/files/remotefile.txt
+Received: WRITE remotefile.txt This is a test file.
+
+File written successfully: server_root/files/remotefile.txt
+Received: GET remotefile.txt
+File sent successfully: server_root/files/remotefile.txt
+Received: RM remotefile.txt
+File deleted successfully: server_root/files/remotefile.txt
+Received: LS
+Directory listing sent successfully.

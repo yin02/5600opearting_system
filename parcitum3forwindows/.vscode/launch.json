@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/sunyin/5600/parcitum3forwindows",
+      "program": "/Users/sunyin/5600/parcitum3forwindows/build/Debug/outDebug"
+    }
+  ]
+}

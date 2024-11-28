@@ -1,0 +1,8 @@
+Server listening on port 2024...
+Received: WRITE remotefile.txt This is a test file for testing WRITE command.
+
+File written successfully: server_root/files/remotefile.txt
+Received: GET remotefile.txt
+File sent successfully: server_root/files/remotefile.txt
+Received: RM remotefile.txt
+File deleted successfully: server_root/files/remotefile.txt
